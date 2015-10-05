@@ -14,7 +14,8 @@ import org.w3c.dom.Document
 import org.w3c.tidy.Tidy
 import org.xhtmlrenderer.simple.Graphics2DRenderer
 
-System.properties.putAll( ["socksProxyHost":"localhost", "socksProxyPort":"9050"] )
+//Uncomment the following line to send traffic through Tor.
+//System.properties.putAll( ["socksProxyHost":"localhost", "socksProxyPort":"9050"] )
 
 def makeThumbnail(address) {
 	//Set the running directory
