@@ -4,7 +4,6 @@
 
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
-import groovyx.gpars.GParsPool
 import java.awt.Dimension
 import java.awt.Graphics2D
 import java.awt.RenderingHints
